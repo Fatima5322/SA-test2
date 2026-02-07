@@ -37,10 +37,13 @@
 ## Решение:
 
 *Тип взаимодействия:*
+
 Для получения информации о статусе заказа используется REST API внешнего сервиса. Система обращается к данному сервису по HTTP-протоколу и получает ответ в формате JSON. 
 
 *Запрос:* 
-GET /api/v1/orders/{orderId]/status
-Accept: application/json
+
+```GET /api/v1/orders/{orderId}/status```
+
+```Accept: application/json```
 
 
